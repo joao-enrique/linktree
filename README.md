@@ -113,7 +113,7 @@ Durante o desenvolvimento deste projeto aprimorei:
 - [todo] Criar versão multilíngue (PT/EN)
 
 ## 🔗 Links Úteis
-💾 **Deploy:** [link](https://linktree-eight-gules.vercel.app/)
+💾 **Deploy:** [link](https://linktree-eight-gules.vercel.app/) </br>
 💻 **Portfolio:** [link](https://meu-portfolio-lemon-sigma.vercel.app/)
 
 ## 👨‍💻 Autor
