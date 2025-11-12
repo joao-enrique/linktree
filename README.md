@@ -126,6 +126,6 @@ Feito com 💜 por [João Enrique](https://meu-portfolio-lemon-sigma.vercel.app/
 </div>
 
 ## 📜 Licença
-Este projeto está sob a licença MIT — veja o arquivo [João Enrique](#) para mais detalhes.
+Este projeto está sob a licença MIT — veja o arquivo [LICENCE](./LICENSE) para mais detalhes.
 
 ## ⭐ Se este projeto te inspirou, não esqueça de deixar uma estrela no repositório!
