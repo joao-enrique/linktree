@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Linktree - Seu nome</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <main id="app">
+    <section class="card" role="region" aria-label="Linktree">
+      <div class="meta">
+        <div class="profile">
+          <div class="avatar">
+            <!-- Substitua 'avatar.jpg' pela sua foto de perfil (ou coloque uma tag <img> vazia se preferir) -->
+            <img src="https://i.ibb.co/zTrbL9fQ/IMG-20251018-170838.jpg" alt="Sua foto de perfil" />
+          </div>
+          <div>
+            <h1 id="display-name">João Enrique</h1>
+            <p id="subtitle">Desenvolvedor Web • Game Dev • Dev. App</p>
+            <div style="margin-top:8px"><span class="pill">Brasil</span></div>
+          </div>
+        </div>
+
+        <div style="margin-top:18px;color:var(--muted);font-size:14px">
+          Sou um desenvolvedor de Sites, jogo e aplicativos, que gosta do que faz e se diverte.
+        </div>
+      </div>
+
+      <div class="links" id="links-list">
+        <!-- Cada item tem data-href para facilitar alteração no JS. Substitua nas variáveis JS ou no href diretamente. -->
+
+        <a class="link-btn" data-href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <div class="link-icon" aria-hidden="true">
+            <!-- LinkedIn SVG -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+              <path d="M4.98 3.5C4.98 4.88071 3.86071 6 2.48 6C1.09929 6 0 4.88071 0 3.5C0 2.11929 1.11929 1 2.5 1C3.88071 1 4.98 2.11929 4.98 3.5Z" transform="translate(3 4)" fill="currentColor"/>
+              <path d="M0 22V7.5H5V22H0ZM7.5 7.5H12.5V9.5H12.56C13.36 8.12 15.26 6.72 17.86 6.72C22.8 6.72 24 9.66 24 14.24V22H19V15.66C19 13.2 18.06 11.88 16.02 11.88C13.98 11.88 13.2 13.34 13.2 15.66V22H7.5V7.5Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="link-label">
+            <div class="link-title">LinkedIn</div>
+            <div class="link-sub">Conecte-se comigo</div>
+          </div>
+        </a>
+
+        <a class="link-btn" data-href="https://itch.io/" target="_blank" rel="noopener noreferrer">
+          <div class="link-icon" aria-hidden>
+            <!-- Gamepad / itch icon (simple) -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM11 8h2v2h-2zM14 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM19 11h-1v1h1zM3 15c0 3.87 3.13 7 7 7h4c3.87 0 7-3.13 7-7v-2c0-3.87-3.13-7-7-7h-4C6.13 6 3 9.13 3 13v2z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="link-label">
+            <div class="link-title">itch.io</div>
+            <div class="link-sub">Jogos e demos</div>
+          </div>
+        </a>
+
+        <a class="link-btn" data-href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          <div class="link-icon" aria-hidden>
+            <!-- YouTube SVG -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5 6.2a3 3 0 0 0-2.12-2.12C19.9 3.5 12 3.5 12 3.5s-7.9 0-9.38.58A3 3 0 0 0 .5 6.2C0 8.02 0 12 0 12s0 3.98.5 5.8a3 3 0 0 0 2.12 2.12C4.1 20.5 12 20.5 12 20.5s7.9 0 9.38-.58a3 3 0 0 0 2.12-2.12c.5-1.82.5-5.8.5-5.8s0-3.98-.5-5.8zM9.75 15.02V8.98l6.28 3.02-6.28 3.02z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="link-label">
+            <div class="link-title">YouTube</div>
+            <div class="link-sub">Vídeos e devlogs</div>
+          </div>
+        </a>
+
+        <a class="link-btn" data-href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <div class="link-icon" aria-hidden>
+            <!-- GitHub SVG -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 .5C5.65.5.75 5.4.75 11.75c0 4.8 3.1 8.86 7.4 10.3.54.1.74-.24.74-.52 0-.26-.01-1-.01-1.96-3.01.66-3.64-1.45-3.64-1.45-.49-1.24-1.2-1.57-1.2-1.57-.98-.67.07-.66.07-.66 1.08.08 1.65 1.11 1.65 1.11.96 1.64 2.52 1.17 3.14.9.1-.7.38-1.17.69-1.44-2.4-.27-4.93-1.2-4.93-5.35 0-1.18.42-2.14 1.11-2.9-.11-.28-.48-1.4.11-2.92 0 0 .9-.29 2.95 1.11A10.2 10.2 0 0 1 12 7.58c.91.004 1.82.12 2.68.35 2.05-1.4 2.95-1.11 2.95-1.11.59 1.52.22 2.64.11 2.92.69.76 1.11 1.72 1.11 2.9 0 4.16-2.54 5.08-4.96 5.35.39.34.74 1.02.74 2.06 0 1.49-.01 2.69-.01 3.06 0 .29.2.63.75.52 4.3-1.43 7.4-5.5 7.4-10.3C23.25 5.4 18.35.5 12 .5z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="link-label">
+            <div class="link-title">GitHub</div>
+            <div class="link-sub">Código e projetos</div>
+          </div>
+        </a>
+
+        <a class="link-btn" data-href="/portfolio" target="_blank" rel="noopener noreferrer">
+          <div class="link-icon" aria-hidden>
+            <!-- Portfolio / website icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zm3 3v10h10V8H6z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="link-label">
+            <div class="link-title">Portfolio</div>
+            <div class="link-sub">Meu site / projetos</div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="footer">Clique no link para abrir em nova aba</div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
