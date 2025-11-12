@@ -6,7 +6,7 @@
 ## 🚀 Demonstração
 🔗 **Acesse aqui:** [link do deploy](https://linktree-eight-gules.vercel.app/)  
 📸 **Preview:**  
-![Screenshot do projeto](https://i.ibb.co/5xMprv3s/linktree.png)
+![Screenshot do projeto](./images/preview-project.png)
 
 ---
 
@@ -16,7 +16,7 @@
 - [Funcionalidades](#-funcionalidades)
 - [Como Rodar o Projeto](#-como-rodar-o-projeto)
 - [Como Usar](#-como-usar)
-- [Screenshots](#-screenshots)
+- [Screenshots](#️-screenshots)
 - [Aprendizados](#-aprendizados)
 - [Estrutura de Pastas](#-estrutura-de-pastas)
 - [Roadmap](#-roadmap)
