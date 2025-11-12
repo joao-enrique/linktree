@@ -83,7 +83,12 @@ cd linktree
 3. Salve e atualize o navegador para visualizar as alterações.
 
 ## 🖼️ Screenshots
-TODO
+### 💻 PC
+![preview do projeto](./images/preview-1.png)
+### 📱 Tablet
+![preview do projeto](./images/preview-2.png)
+### 📲 Celular
+![preview do projeto](./images/preview-3.png)
 ## 🧠 Aprendizados
 Durante o desenvolvimento deste projeto aprimorei:
 </br>
